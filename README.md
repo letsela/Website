@@ -1,1 +1,1 @@
-# Website
+This is a website for non programmers.They drag and drop images for the better look of their website. Editing menu, setting background colour. This give the naive programmers to create their own website and it is user friendly.
