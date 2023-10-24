@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+    
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+	<title>Templete 6</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg  py-3 ">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  	            <div class="container-fluid">
+
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-left"></i>
+                    <span></span>
+                </button>
+            </div>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Manage-Pages <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+<!---sidebar-->
+<div class="wrappe">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+
+        <div id="dismiss">
+            <i class="fas fa-arrow-left">EDit menu</i>
+        </div>
+
+        <div class="sidebar-header">
+            <h3>Create webside</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+            <p>Use Drag & Drop method</p>
+            <li class="active">
+                <a href="website.html">Home</a>
+            </li>
+            
+                               <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button class="btn btn-info" width="20px"><i class="fas fa-paragraph"></i></button>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <p><input type="file"></p>
+            <p><input type="text"></p>
+            <p><input type="textarea"></p>
+            <p style="background: blue">paragraph</p>
+            <p> <a href=""><button type="button" class="btn btn-primary">button</button></a></p>
+           <p> <img src="GettyImages-542084415_full.jpg" width="350"></p> 
+          <p>  <img src="02-copyright-Semonkong-Lodge-768x513.jpg" width="350"></p>
+            <p><select onchange="change(this.value)">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+            </select></p>
+        </div>
+      </li>
+                  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button class="btn btn-info"><i class="fas fa-images"></i></button>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <img src="technical-obstacle-on-the-way-to-ha-lenkoane.jpg " width="350">
+
+        </div>
+                      
+      </li>
+           
+        </ul>
+        
+                <div class="secon">
+            <div class="row">
+                <div class="col">
+                    <h6>set backgroud</h6>
+                <select onchange="change(this.value)">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+                <option value="blue">blue</option>
+                <option value="orange">orange</option>
+            </select>
+                    
+                </div>
+                  <div class="col">
+                <h6>set color</h6>
+                <select onchange="chinge(this.value)">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+                <option value="blue">blue</option>
+                <option value="orange">orange</option>
+            </select>
+                </div>
+                  <div class="col">
+                <h6>header1</h6>
+                <select onchange="cinge(this.value)">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+                <option value="blue">blue</option>
+                <option value="orange">orange</option>
+            </select>
+                </div>
+                
+                                <div class="col">
+                    <h6>header1 bg</h6>
+                <select onchange="chage(this.value)">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+                <option value="blue">blue</option>
+                <option value="orange">orange</option>
+            </select>
+                    
+                </div>
+                
+                                  <div class="col">
+                <h6>paragr1</h6>
+                <select onchange="seco(this.value)">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+                <option value="blue">blue</option>
+                <option value="orange">orange</option>
+            </select>
+                </div>
+                
+                <div class="col">
+                    <h6>parag1 bg</h6>
+                <select onchange="sco(this.value)">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+                <option value="blue">blue</option>
+                <option value="orange">orange</option>
+            </select>
+                    
+                </div>
+                              <div class="col">
+                <h6>paragr2</h6>
+                <select onchange="wet(this.value)">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+                <option value="blue">blue</option>
+                <option value="orange">orange</option>
+            </select>
+                </div>
+                
+                <div class="col">
+                    <h6>paragr2 bg</h6>
+                <select onchange="win(this.value)">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+                <option value="blue">blue</option>
+                <option value="orange">orange</option>
+            </select>
+                    
+                </div>             
+                
+                <div class="col">
+                <h6>header2</h6>
+                <select onchange="one(this.value)">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+                <option value="blue">blue</option>
+                <option value="orange">orange</option>
+            </select>
+                </div>
+                
+                <div class="col">
+                    <h6>header2 bg</h6>
+                <select onchange="five(this.value)">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+                <option value="blue">blue</option>
+                <option value="orange">orange</option>
+            </select>
+                    
+                </div>
+                
+                 <div class="col">
+                <h6>menu</h6>
+                <select onchange="one1(this.value)">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+                <option value="blue">blue</option>
+                <option value="orange">orange</option>
+            </select>
+                </div>
+                
+                <div class="col">
+                    <h6>menu bg</h6>
+                <select onchange="five1(this.value)">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+                <option value="blue">blue</option>
+                <option value="orange">orange</option>
+            </select>
+                    
+                </div>
+               
+                <div class="col">
+                <h6>header2font</h6>
+                <select onchange="one11(this.value)">
+                <option value="normal">normal</option>
+                <option value="italic">italic</option>
+                <option value="oblique">oblique</option>
+            </select>
+                </div>
+                
+                <div class="col">
+                <h6>header2fontfamily</h6>
+                <select onchange="one111(this.value)">
+                <option value="arial">arial</option>
+                <option value="impact">impact</option>
+                <option value="Times new roman">Times new roman</option>
+                <option value="sansserif">sansserif</option>
+                <option value="charcoal">charcoal</option>
+                <option value="algerian">algerian</option>
+            </select>
+                </div>
+                    </div>
+        </div>
+
+        
+    </nav>
+    
+    <!--home page-->
+    <div id="cosmo">
+       <nav class="navbar navbar-expand-lg  py-3" contenteditable="true">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  	            <div class="container-fluid">
+
+                <a href="">HOME</a>
+            </div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home </a>
+      </li>
+        
+              <li class="nav-item">
+        <a class="nav-link" href="#">About us</a>
+      </li>
+        
+              <li class="nav-item">
+        <a class="nav-link" href="#">Products</a>
+      </li>
+        
+              <li class="nav-item">
+        <a class="nav-link" href="#">Contact us</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+<div class="main" contenteditable="true">
+                <div class="row">
+                <div class="col">
+                    <h2 class="display-12 mt-3"  contenteditable="true" id="ball">.</h2>
+                </div>
+    </div>
+    </div>
+        <div class="second" id="second1">
+            <div class="row">
+                <div class="col">
+                    <h2 class="lll" contenteditable="true" id="ala">Drag and drop anywhere to build website</h2>
+                </div>
+            </div>
+                        <div class="row">
+                <div class="col-lg-4 " >
+                    <div class="mt-5 rrrr">
+                        <div class="thumbnail">
+                            <p contenteditable="true" id="vib">We offer help to build website that advertise products, no need of programming languages knowlerge required </p>
+                            	<img src="lesotho map (2).jpg">
+                    </div>
+                </div>
+                </div>
+                 <div class="col-lg-4 ">
+                    <div class="mt-5">
+                        <div class="thumbnail">
+                            <p contenteditable="true" id="first">We offer help to build website that advertise products, no need of programming languages knowlerge required </p>
+                            	<img src="Lesotho-Africa+1.jpg">
+                    </div>
+                </div>
+                </div>
+
+            </div>
+    </div>
+    <div class="third" >
+        <h1 contenteditable="true" id="three">topology</h1>
+        <h1  contenteditable="true" id="here">take the header</h1>
+    </div>
+    </div>
+    </div>
+                <div id="cart" class="cart">
+             <div class="cart-item d-flex justify-content-between text-capitalize my-3">
+                 <img src="is.jpg" class="img-fluid" class=" rounded-cycle" id="item-img"><br>
+
+                    </div>
+    </div>
+    
+       <!-- Footer -->
+        <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+          <!-- Footer Links -->
+          <div class="container text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Content -->
+                <h5 class="font-weight-bold text-uppercase mb-4">Footer Content</h5>
+                <p>Here you can use rows and columns to organize your footer content.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate
+                  esse
+                  quasi, veritatis totam voluptas nostrum.</p>
+
+              </div>
+              <!-- Grid column -->
+
+              <hr class="clearfix w-100 d-md-none">
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
+
+                <ul class="list-unstyled">
+                  <li>
+                    <p>
+                      <a href="#!">PROJECTS</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="#!">ABOUT US</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="#!">BLOG</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="#!">AWARDS</a>
+                    </p>
+                  </li>
+                </ul>
+
+              </div>
+              <!-- Grid column -->
+
+              <hr class="clearfix w-100 d-md-none">
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Contact details -->
+                <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+
+                <ul class="list-unstyled">
+                  <li>
+                    <p>
+                      <i class="fas fa-home mr-3"></i> LESOTHO, MASERU 1000, CITY COMPLEX</p>
+                  </li>
+                  <li>
+                    <p>
+                      <i class="fas fa-envelope mr-3"></i> kwetesubtle190294@gmail.com</p>
+                  </li>
+                  <li>
+                    <p>
+                      <i class="fas fa-phone mr-3"></i> + 266 234 459 88</p>
+                  </li>
+                  <li>
+                    <p>
+                      <i class="fas fa-print mr-3"></i> + 266 632 345 56</p>
+                  </li>
+                </ul>
+
+              </div>
+              <!-- Grid column -->
+
+              <hr class="clearfix w-100 d-md-none">
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+                <!-- Social buttons -->
+                <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+
+                <!-- Facebook -->
+                <a type="button" class="btn-floating btn-fb">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <!-- Twitter -->
+                <a type="button" class="btn-floating btn-tw">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <!-- Google +-->
+                <a type="button" class="btn-floating btn-gplus">
+                  <i class="fab fa-google-plus-g"></i>
+                </a>
+                <!-- Dribbble -->
+                <a type="button" class="btn-floating btn-dribbble">
+                  <i class="fab fa-dribbble"></i>
+                </a>
+
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+          </div>
+          <!-- Footer Links -->
+
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+          </div>
+          <!-- Copyright -->
+
+        </footer>
+    <script src="main.js"></script>
+    
+</body>
+    
+</html>
